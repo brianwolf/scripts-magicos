@@ -1,3 +1,3 @@
-. ./scripts/heroku/ambiente.sh
+. ./scripts/heroku-docker/ambiente.env
 
-echo "$HEROKU_API_KEY" | docker login $HEROKU_REGISTRY --username $DOCKER_USER --password-stdin
+echo "$HEROKU_API_KEY" | docker login --username $HEROKU_EMAIL --password-stdin $HEROKU_REGISTRY 

@@ -1,6 +1,6 @@
-. ./scripts/heroku/ambiente.env
+. ./scripts/heroku-docker/ambiente.env
 
-. ./scripts/heroku/login.sh
+. ./scripts/heroku-docker/login.sh
 
 heroku create $HEROKU_APP
 
