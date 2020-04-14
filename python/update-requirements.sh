@@ -1,13 +1,6 @@
-. ./scripts/python/ambiente.sh
+. ./scripts/python/ambiente.env
 
-# INSTALAR DEPENDENCIAS
-. $CARPETA_ENV/bin/activate
-pip install -r $CARPETA_REQUIREMENTS
-
-
-# ACTUALIZAR REQUIREMENTS
-pip freeze > $CARPETA_REQUIREMENTS
-
-
-# SALIR DEL VIRTUAL ENV
-deactivate
+. $CARPETA_ENV/bin/activate &&
+    pip install -r $CARPETA_REQUIREMENTS &&\
+    pip freeze > $CARPETA_REQUIREMENTS &&\
+    deactivate

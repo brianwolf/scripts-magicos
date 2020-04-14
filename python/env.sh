@@ -1,4 +1,4 @@
-. ./scripts/python/ambiente.sh
+. ./scripts/python/ambiente.env
 
 # CREAR VIRTUAL ENV
 virtualenv -p python$PYTHON_VERSION $CARPETA_ENV
