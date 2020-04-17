@@ -11,7 +11,7 @@ export DOCKER_NAMESPACE=brianwolf94
 export DOCKER_REGISTRY=docker.io
 
 export DOCKER_ARCHIVO_ARGUMENTOS=./docker/env/argumentos.env
-export DOCKER_ARCHIVO_AMBIENTE=./docker/env/ambiente.env
+export DOCKER_ARCHIVO_AMBIENTE=./docker/env/ambiente.sh
 
 export DOCKER_DOCKERFILE=./docker/Dockerfile
 

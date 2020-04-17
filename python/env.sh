@@ -5,4 +5,4 @@ virtualenv -p python$PYTHON_VERSION $CARPETA_ENV
 
 
 # INSTALAR DEPENDENCIAS
-. ./scripts/python/update-requirements.sh
+. ./scripts/python/actualizar-requirements.sh

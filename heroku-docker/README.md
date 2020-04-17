@@ -4,8 +4,21 @@
 
 ## Requerimientos
 
-* Archivo `Dockerfile` en la ruta raiz del proyecto
+* Archivo `Dockerfile` con ese mismo nombre ubicado en esta misma carpeta que Heroku usara para el despliegue
+
+## Uso
+
+* Ejecutar el script llamado `despliegue.sh`
+
+## Generacion del archivo Dockerfile
+
+En caso de querer generar un archivo de forma dinamica se puede hacer mediante un template
+siguiendo estos pasos:
+
+* Crear un archivo llamado `Dockerfile.template` como en el ejemplo
+* Ejecutar el script llamado `generar-dockerfile.sh`
+* Ejecutar el script llamado `despliegue.sh`
 
 ## Importante
 
-Heroku tiene una variable de ambiente llamada **$PORT** con el puerto asignado por el server, el cual se tiene que usar para desplegar la aplicacion
+Heroku usa una variable de ambiente llamada **$PORT** que tiene el puerto asignado por el server, es **crucial que se utilice en el dockerfile**
