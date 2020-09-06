@@ -12,5 +12,5 @@ $AMBIENTE_GIT_CARPETA_DESCARGA
 
 
 # SE REEMPLAZAN LOS ARCHIVOS DE CONFIGURACION
-cp -fa $AMBIENTE_GIT_CARPETA_DESCARGA/ambiente.env ./config
-cp -fa $AMBIENTE_GIT_CARPETA_DESCARGA/argumentos.env ./config
+cp -fa $AMBIENTE_GIT_CARPETA_DESCARGA/ambiente.env ./docker/config
+cp -fa $AMBIENTE_GIT_CARPETA_DESCARGA/argumentos.env ./docker/config

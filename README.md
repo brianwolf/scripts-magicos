@@ -2,7 +2,7 @@
 
 > Para cuando no queres tirar comandos locos que no te acordas
 
-![alt](https://media1.tenor.com/images/cc7f226783133f6088c33e871a048c2e/tenor.gif?itemid=3551563)
+![alt](docs/img/tenor.gif)
 
 ---
 
