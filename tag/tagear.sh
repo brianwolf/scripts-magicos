@@ -1,4 +1,5 @@
-source ./scripts/versionado/ambiente.sh
+# source ./scripts/versionado/ambiente.sh
+source ./tag/ambiente.sh
 
 
 # OBTENER TAGS
@@ -13,8 +14,8 @@ echo "Version a desplegar: $VERSION_FINAL"
 
 
 # SUBIR TAG
-git tag $VERSION_FINAL
-git push http://$TAGEAR_GIT_USER:$TAGEAR_GIT_TOKEN@github.com/$TAGEAR_GIT_USER/$TAGEAR_GIT_REPO.git --tags
+# git tag $VERSION_FINAL
+# git push http://$TAGEAR_GIT_USER:$TAGEAR_GIT_TOKEN@github.com/$TAGEAR_GIT_USER/$TAGEAR_GIT_REPO.git --tags
 
 
 # GUARDO CONFIGURACION PARA LOS DEMAS JOBS
