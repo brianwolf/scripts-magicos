@@ -1,0 +1,1 @@
+pip freeze > $RUTA_REQUIREMENTS
