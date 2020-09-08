@@ -14,4 +14,4 @@ DOCKER_TAG=${DOCKER_TAG:-local}
 # -------------------------------
 # PRIVATE
 # -------------------------------
-DOCKER_REGISTRY=registry.heroku.com
+HEROKU_DOCKER_REGISTRY=registry.heroku.com
