@@ -1,5 +1,5 @@
-. ./scripts/docker/ambiente.sh
+. ./scripts/docker/config.sh
 
 docker logs \
-$DOCKER_NOMBRE_IMAGEN \
+$DOCKER_IMAGE_NAME \
 -f
